@@ -149,6 +149,17 @@
       "status": "Present",
       "approvalStatus": "APPROVED_BY_ADMIN",
       "adminRemark": "Approved by Admin"
+    },
+    {
+      "id": "eb2b",
+      "studentUid": "TjOnMMR81beJWBZx2vBoWJDhVJt2",
+      "studentName": "student@gmail.com",
+      "eventId": "fb31",
+      "eventTitle": "Sports",
+      "date": "2026-01-02",
+      "status": "Present",
+      "approvalStatus": "APPROVED_BY_ADMIN",
+      "adminRemark": "APPROVED BY ADMIN by Admin"
     }
   ],
   "notifications": [
@@ -762,6 +773,12 @@
       "id": "3b79",
       "toRole": "hod",
       "message": "Attendance approved for nit@gmail.com",
+      "read": false
+    },
+    {
+      "id": "7b71",
+      "toRole": "hod",
+      "message": "Attendance approved for student@gmail.com",
       "read": false
     }
   ],
