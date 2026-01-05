@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "dist/server.js",
   "scripts": {
-    "start": "json-server db.json --port $PORT",
-    "build": "echo 'No build step needed'"
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "node dist/server.js"
   },
   "keywords": [],
   "author": "",

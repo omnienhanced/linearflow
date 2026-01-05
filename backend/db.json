@@ -69,8 +69,9 @@
       "uid": "TjOnMMR81beJWBZx2vBoWJDhVJt2",
       "email": "student@gmail.com",
       "role": "student",
-      "status": "PENDING",
-      "createdAt": "2026-01-02T06:59:16.290Z"
+      "status": "APPROVED",
+      "createdAt": "2026-01-02T06:59:16.290Z",
+      "approvedAt": "2026-01-03T04:58:48.864Z"
     },
     {
       "id": "33e9",
@@ -87,6 +88,51 @@
       "role": "student",
       "status": "PENDING",
       "createdAt": "2026-01-02T07:04:32.812Z"
+    },
+    {
+      "id": "705c",
+      "uid": "mcdJS19m4ueO9hFgqDKezS35hV03",
+      "email": "student3@gmail.com",
+      "role": "student",
+      "status": "APPROVED",
+      "createdAt": "2026-01-03T06:13:12.205Z",
+      "approvedAt": "2026-01-03T06:13:44.315Z"
+    },
+    {
+      "id": "3d0e",
+      "uid": "Ax1QqQGy4hZCRcmxR4RbDwqJrez2",
+      "email": "student4@gmail.com",
+      "role": "student",
+      "status": "APPROVED",
+      "createdAt": "2026-01-03T06:16:43.857Z",
+      "approvedAt": "2026-01-03T06:17:03.901Z"
+    },
+    {
+      "id": "4654",
+      "uid": "2QDjRXJfb8byg6QRNPtcWGxUmGQ2",
+      "email": "student5@gmail.com",
+      "role": "student",
+      "status": "APPROVED",
+      "createdAt": "2026-01-03T06:19:05.167Z",
+      "approvedAt": "2026-01-03T06:19:37.240Z"
+    },
+    {
+      "id": "0a63",
+      "uid": "HrqvIDD0x5PKF4kAHMOKFrnWD0I2",
+      "email": "student6@gmail.com",
+      "role": "student",
+      "status": "APPROVED",
+      "createdAt": "2026-01-03T06:45:47.850Z",
+      "approvedAt": "2026-01-03T06:48:05.927Z"
+    },
+    {
+      "id": "b133",
+      "uid": "wENLzBNXZTT5ul1KOUi4pJyqKJs2",
+      "email": "student6@gamil.com",
+      "role": "student",
+      "status": "APPROVED",
+      "createdAt": "2026-01-03T06:57:36.979Z",
+      "approvedAt": "2026-01-03T06:58:58.276Z"
     }
   ],
   "attendance": [
@@ -157,6 +203,39 @@
       "eventId": "fb31",
       "eventTitle": "Sports",
       "date": "2026-01-02",
+      "status": "Present",
+      "approvalStatus": "APPROVED_BY_ADMIN",
+      "adminRemark": "APPROVED BY ADMIN by Admin"
+    },
+    {
+      "id": "c0c9",
+      "studentUid": "TjOnMMR81beJWBZx2vBoWJDhVJt2",
+      "studentName": "student@gmail.com",
+      "eventId": "ace2",
+      "eventTitle": "Teachers day",
+      "date": "2026-01-01",
+      "status": "Present",
+      "approvalStatus": "APPROVED_BY_ADMIN",
+      "adminRemark": "APPROVED BY ADMIN by Admin"
+    },
+    {
+      "id": "fe8f",
+      "studentUid": "HrqvIDD0x5PKF4kAHMOKFrnWD0I2",
+      "studentName": "student6@gmail.com",
+      "eventId": "5fee",
+      "eventTitle": "Teacher Day",
+      "date": "2026-01-07",
+      "status": "Present",
+      "approvalStatus": "APPROVED_BY_ADMIN",
+      "adminRemark": "APPROVED BY ADMIN by Admin"
+    },
+    {
+      "id": "bfb2",
+      "studentUid": "HrqvIDD0x5PKF4kAHMOKFrnWD0I2",
+      "studentName": "student6@gmail.com",
+      "eventId": "be01",
+      "eventTitle": "Beach Cleaning (Seminar)",
+      "date": "2026-01-05",
       "status": "Present",
       "approvalStatus": "APPROVED_BY_ADMIN",
       "adminRemark": "APPROVED BY ADMIN by Admin"
@@ -780,148 +859,275 @@
       "toRole": "hod",
       "message": "Attendance approved for student@gmail.com",
       "read": false
+    },
+    {
+      "id": "5190",
+      "toRole": "hod",
+      "message": "Attendance approved for student@gmail.com",
+      "read": false
+    },
+    {
+      "id": "a3bf",
+      "toRole": "hod",
+      "message": "Attendance approved for student@gmail.com",
+      "read": false
+    },
+    {
+      "id": "2488",
+      "toRole": "hod",
+      "message": "Attendance approved for student@gmail.com",
+      "read": false
+    },
+    {
+      "id": "cd62",
+      "toRole": "hod",
+      "message": "Attendance approved for student@gmail.com",
+      "read": false
+    },
+    {
+      "id": "027d",
+      "toRole": "PRINCIPAL",
+      "message": "New Approval Required: \"Beach Cleaning (Seminar)\" has been forwarded by HOD.",
+      "read": false,
+      "createdAt": "2026-01-03T05:09:36.392Z"
+    },
+    {
+      "id": "4a61",
+      "toRole": "COMMITTEE_HEAD",
+      "message": "Progress: Your event \"Beach Cleaning (Seminar)\" was approved by HOD and is now PENDING PRINCIPAL.",
+      "read": false,
+      "createdAt": "2026-01-03T05:09:37.323Z"
+    },
+    {
+      "id": "6b4a",
+      "toRole": "committee_head",
+      "message": "Event \"Beach Cleaning (Seminar)\" approved by Principal",
+      "read": false
+    },
+    {
+      "id": "e8e4",
+      "toRole": "committee_head",
+      "message": "Event \"PTA\" approved by Principal",
+      "read": false
+    },
+    {
+      "id": "5446",
+      "toRole": "committee_head",
+      "message": "Event \"PTA\" approved by Principal",
+      "read": false
+    },
+    {
+      "id": "38b4",
+      "toRole": "HOD",
+      "message": "Event Rescheduled: \"PTA\" has been moved to 2026-01-05 at c-110.",
+      "read": false,
+      "createdAt": "2026-01-03T05:12:28.982Z"
+    },
+    {
+      "id": "7cbf",
+      "toRole": "PRINCIPAL",
+      "message": "New Approval Required: \"PTA\" has been forwarded by HOD.",
+      "read": false,
+      "createdAt": "2026-01-03T05:12:39.452Z"
+    },
+    {
+      "id": "4d16",
+      "toRole": "COMMITTEE_HEAD",
+      "message": "Progress: Your event \"PTA\" was approved by HOD and is now PENDING PRINCIPAL.",
+      "read": false,
+      "createdAt": "2026-01-03T05:12:40.232Z"
+    },
+    {
+      "id": "b394",
+      "toRole": "committee_head",
+      "message": "Event \"PTA\" approved by Principal",
+      "read": false
+    },
+    {
+      "id": "7356",
+      "toRole": "HOD",
+      "message": "Event Rescheduled: \"PTA\" has been moved to 2026-01-05 at C-110.",
+      "read": false,
+      "createdAt": "2026-01-03T05:14:01.653Z"
+    },
+    {
+      "id": "0832",
+      "toRole": "PRINCIPAL",
+      "message": "New Approval Required: \"PTA\" has been forwarded by HOD.",
+      "read": false,
+      "createdAt": "2026-01-03T05:14:12.343Z"
+    },
+    {
+      "id": "3252",
+      "toRole": "COMMITTEE_HEAD",
+      "message": "Progress: Your event \"PTA\" was approved by HOD and is now PENDING PRINCIPAL.",
+      "read": false,
+      "createdAt": "2026-01-03T05:14:13.428Z"
+    },
+    {
+      "id": "3ac2",
+      "toRole": "committee_head",
+      "message": "Event \"PTA\" cancelled due to collision with \"Beach Cleaning (Seminar)\"",
+      "read": false
+    },
+    {
+      "id": "7b7c",
+      "toRole": "PRINCIPAL",
+      "message": "New Approval Required: \"Teacher Day\" has been forwarded by HOD.",
+      "read": false,
+      "createdAt": "2026-01-03T06:49:56.560Z"
+    },
+    {
+      "id": "dd27",
+      "toRole": "COMMITTEE_HEAD",
+      "message": "Progress: Your event \"Teacher Day\" was approved by HOD and is now PENDING PRINCIPAL.",
+      "read": false,
+      "createdAt": "2026-01-03T06:49:57.616Z"
+    },
+    {
+      "id": "44e1",
+      "toRole": "PRINCIPAL",
+      "message": "New Approval Required: \"Teacher Day\" has been forwarded by HOD.",
+      "read": false,
+      "createdAt": "2026-01-03T06:50:00.476Z"
+    },
+    {
+      "id": "d577",
+      "toRole": "COMMITTEE_HEAD",
+      "message": "Progress: Your event \"Teacher Day\" was approved by HOD and is now PENDING PRINCIPAL.",
+      "read": false,
+      "createdAt": "2026-01-03T06:50:01.408Z"
+    },
+    {
+      "id": "2ba9",
+      "toRole": "committee_head",
+      "message": "Event \"Teacher Day\" approved by Principal",
+      "read": false
+    },
+    {
+      "id": "f2d1",
+      "toRole": "PRINCIPAL",
+      "message": "New Approval Required: \"CESA\" has been forwarded by HOD.",
+      "read": false,
+      "createdAt": "2026-01-03T07:03:14.769Z"
+    },
+    {
+      "id": "e9fd",
+      "toRole": "COMMITTEE_HEAD",
+      "message": "Progress: Your event \"CESA\" was approved by HOD and is now PENDING PRINCIPAL.",
+      "read": false,
+      "createdAt": "2026-01-03T07:03:16.265Z"
+    },
+    {
+      "id": "0db1",
+      "toRole": "PRINCIPAL",
+      "message": "New Approval Required: \"CESA\" has been forwarded by HOD.",
+      "read": false,
+      "createdAt": "2026-01-03T07:03:16.358Z"
+    },
+    {
+      "id": "52b5",
+      "toRole": "COMMITTEE_HEAD",
+      "message": "Progress: Your event \"CESA\" was approved by HOD and is now PENDING PRINCIPAL.",
+      "read": false,
+      "createdAt": "2026-01-03T07:03:17.482Z"
+    },
+    {
+      "id": "47cb",
+      "toRole": "PRINCIPAL",
+      "message": "New Approval Required: \"CESA\" has been forwarded by HOD.",
+      "read": false,
+      "createdAt": "2026-01-03T07:03:17.479Z"
+    },
+    {
+      "id": "61b2",
+      "toRole": "COMMITTEE_HEAD",
+      "message": "Progress: Your event \"CESA\" was approved by HOD and is now PENDING PRINCIPAL.",
+      "read": false,
+      "createdAt": "2026-01-03T07:03:18.305Z"
+    },
+    {
+      "id": "e05c",
+      "toRole": "committee_head",
+      "message": "Event \"CESA\" approved by Principal",
+      "read": false
+    },
+    {
+      "id": "c6ed",
+      "toRole": "HOD",
+      "message": "Event Rescheduled: \"PTA\" has been moved to 2026-01-22 at C-110.",
+      "read": false,
+      "createdAt": "2026-01-03T07:04:05.709Z"
+    },
+    {
+      "id": "9194",
+      "toRole": "HOD",
+      "message": "Event Rescheduled: \"CESA\" has been moved to 2026-01-07 at C-110.",
+      "read": false,
+      "createdAt": "2026-01-03T07:05:38.899Z"
+    },
+    {
+      "id": "9664",
+      "toRole": "PRINCIPAL",
+      "message": "New Approval Required: \"CESA\" has been forwarded by HOD.",
+      "read": false,
+      "createdAt": "2026-01-03T07:05:55.472Z"
+    },
+    {
+      "id": "b6e4",
+      "toRole": "COMMITTEE_HEAD",
+      "message": "Progress: Your event \"CESA\" was approved by HOD and is now PENDING PRINCIPAL.",
+      "read": false,
+      "createdAt": "2026-01-03T07:05:56.408Z"
+    },
+    {
+      "id": "720c",
+      "toRole": "PRINCIPAL",
+      "message": "New Approval Required: \"PTA\" has been forwarded by HOD.",
+      "read": false,
+      "createdAt": "2026-01-03T07:06:01.333Z"
+    },
+    {
+      "id": "e834",
+      "toRole": "PRINCIPAL",
+      "message": "New Approval Required: \"PTA\" has been forwarded by HOD.",
+      "read": false,
+      "createdAt": "2026-01-03T07:06:01.562Z"
+    },
+    {
+      "id": "b3ad",
+      "toRole": "COMMITTEE_HEAD",
+      "message": "Progress: Your event \"PTA\" was approved by HOD and is now PENDING PRINCIPAL.",
+      "read": false,
+      "createdAt": "2026-01-03T07:06:02.135Z"
+    },
+    {
+      "id": "dc61",
+      "toRole": "COMMITTEE_HEAD",
+      "message": "Progress: Your event \"PTA\" was approved by HOD and is now PENDING PRINCIPAL.",
+      "read": false,
+      "createdAt": "2026-01-03T07:06:02.394Z"
+    },
+    {
+      "id": "b4d5",
+      "toRole": "committee_head",
+      "message": "Event \"CESA\" cancelled due to collision with \"Teacher Day\"",
+      "read": false
+    },
+    {
+      "id": "c53c",
+      "toRole": "hod",
+      "message": "Attendance approved for student6@gmail.com",
+      "read": false
+    },
+    {
+      "id": "dd99",
+      "toRole": "hod",
+      "message": "Attendance approved for student6@gmail.com",
+      "read": false
     }
   ],
   "eventPermissions": [
-    {
-      "id": "6156",
-      "title": "Zephayer",
-      "committeeHeadUid": "XCCgelFIFgVE3EwDGUWdGuwQHTn2",
-      "hodApprovalType": "ALL",
-      "department": "",
-      "status": "CANCELLED",
-      "hodApprovals": [],
-      "principalStatus": "TERMINATED",
-      "hodRemark": "Rejected by HOD",
-      "cancellationReason": "it is rejected",
-      "collisionReason": null
-    },
-    {
-      "id": "ba75",
-      "title": "CESA",
-      "committeeHeadUid": "XCCgelFIFgVE3EwDGUWdGuwQHTn2",
-      "hodApprovalType": "DEPARTMENT",
-      "department": "AIML",
-      "status": "CANCELLED",
-      "hodApprovals": [],
-      "principalStatus": "TERMINATED",
-      "hodRemark": "Rejected by HOD",
-      "collisionReason": null
-    },
-    {
-      "id": "58c6",
-      "title": "CSI",
-      "committeeHeadUid": "XCCgelFIFgVE3EwDGUWdGuwQHTn2",
-      "hodApprovalType": "DEPARTMENT",
-      "department": "Computer",
-      "status": "CANCELLED",
-      "hodApprovals": [
-        "l33laYnFVqTAkg5TeCCFh9XWdBk1"
-      ],
-      "principalStatus": "TERMINATED"
-    },
-    {
-      "id": "2b39",
-      "title": "Yuti",
-      "committeeHeadUid": "XCCgelFIFgVE3EwDGUWdGuwQHTn2",
-      "hodApprovalType": "ALL",
-      "department": "",
-      "status": "CANCELLED",
-      "hodApprovals": [
-        "l33laYnFVqTAkg5TeCCFh9XWdBk1",
-        "l33laYnFVqTAkg5TeCCFh9XWdBk1",
-        "l33laYnFVqTAkg5TeCCFh9XWdBk1"
-      ],
-      "principalStatus": "TERMINATED"
-    },
-    {
-      "id": "7a0d",
-      "title": "Women's Day",
-      "committeeHeadUid": "XCCgelFIFgVE3EwDGUWdGuwQHTn2",
-      "hodApprovalType": "DEPARTMENT",
-      "department": "computer",
-      "eventDate": "2026-01-03",
-      "venue": "College Ground",
-      "status": "APPROVED",
-      "hodApprovals": [
-        "l33laYnFVqTAkg5TeCCFh9XWdBk1",
-        "l33laYnFVqTAkg5TeCCFh9XWdBk1"
-      ],
-      "principalStatus": "APPROVED",
-      "cancellationReason": null,
-      "collisionReason": null,
-      "organisedBy": "Committee Head",
-      "description": "Approved by Principal"
-    },
-    {
-      "id": "746e",
-      "title": "Tech",
-      "committeeHeadUid": "XCCgelFIFgVE3EwDGUWdGuwQHTn2",
-      "eventDate": "2025-12-31",
-      "venue": "5th floor C wing",
-      "volunteers": [
-        "nit@gmail.com",
-        "Rajyashri"
-      ],
-      "status": "APPROVED",
-      "principalStatus": "APPROVED",
-      "hodApprovals": [
-        "l33laYnFVqTAkg5TeCCFh9XWdBk1",
-        "l33laYnFVqTAkg5TeCCFh9XWdBk1",
-        "l33laYnFVqTAkg5TeCCFh9XWdBk1"
-      ]
-    },
-    {
-      "id": "412c",
-      "title": "GDG",
-      "committeeHeadUid": "XCCgelFIFgVE3EwDGUWdGuwQHTn2",
-      "eventDate": "2025-12-31",
-      "venue": "C-510",
-      "volunteers": [
-        "nitesh"
-      ],
-      "status": "APPROVED",
-      "principalStatus": "APPROVED",
-      "hodApprovals": [
-        "l33laYnFVqTAkg5TeCCFh9XWdBk1",
-        "l33laYnFVqTAkg5TeCCFh9XWdBk1",
-        "l33laYnFVqTAkg5TeCCFh9XWdBk1"
-      ]
-    },
-    {
-      "id": "039d",
-      "title": "Cesa",
-      "committeeHeadUid": "XCCgelFIFgVE3EwDGUWdGuwQHTn2",
-      "eventDate": "2026-01-02",
-      "venue": "C-510",
-      "volunteers": [
-        "Rajyashri"
-      ],
-      "status": "CANCELLED",
-      "principalStatus": "TERMINATED",
-      "hodApprovals": [
-        "l33laYnFVqTAkg5TeCCFh9XWdBk1",
-        "l33laYnFVqTAkg5TeCCFh9XWdBk1",
-        "l33laYnFVqTAkg5TeCCFh9XWdBk1"
-      ]
-    },
-    {
-      "id": "ace2",
-      "title": "Teachers day",
-      "committeeHeadUid": "XCCgelFIFgVE3EwDGUWdGuwQHTn2",
-      "eventDate": "2026-01-01",
-      "venue": "C-510",
-      "volunteers": [
-        "Rajyashri"
-      ],
-      "status": "APPROVED",
-      "principalStatus": "APPROVED",
-      "hodApprovals": [
-        "l33laYnFVqTAkg5TeCCFh9XWdBk1",
-        "l33laYnFVqTAkg5TeCCFh9XWdBk1",
-        "l33laYnFVqTAkg5TeCCFh9XWdBk1"
-      ]
-    },
     {
       "id": "7104",
       "title": "open day",
@@ -965,54 +1171,11 @@
       "description": "Approved by Principal"
     },
     {
-      "id": "c0f3",
-      "title": "Sports (Cricket)",
-      "eventDate": "2026-01-02",
-      "venue": "C-510",
-      "department": "EXTC",
-      "hodApprovalType": "DEPARTMENT",
-      "status": "CANCELLED",
-      "principalStatus": "TERMINATED",
-      "hodApprovals": [
-        "l33laYnFVqTAkg5TeCCFh9XWdBk1",
-        "l33laYnFVqTAkg5TeCCFh9XWdBk1"
-      ],
-      "rescheduleSuggestions": [],
-      "collisionReason": null,
-      "cancellationReason": "let you know soon!!!!",
-      "collisionWith": "open day",
-      "hodRemark": "Approved by HOD"
-    },
-    {
-      "id": "df8b",
-      "title": "Sports(kho-kho)",
-      "committeeHeadUid": "meb0W1gWXQWUU4K28HDYmlDEWL73",
-      "eventDate": "2026-01-07",
-      "venue": "Ground",
-      "department": "AIML",
-      "hodApprovalType": "DEPARTMENT",
-      "volunteers": [
-        "nit@gmail.com",
-        "Rajyashri",
-        "Nitesh"
-      ],
-      "status": "PENDING_PRINCIPAL",
-      "principalStatus": "PENDING",
-      "hodApprovals": [
-        "l33laYnFVqTAkg5TeCCFh9XWdBk1",
-        "l33laYnFVqTAkg5TeCCFh9XWdBk1"
-      ],
-      "collisionReason": null,
-      "cancellationReason": null,
-      "collisionWith": "Sports",
-      "rescheduleSuggestions": []
-    },
-    {
       "id": "84b1",
       "title": "PTA",
       "committeeHeadUid": "XCCgelFIFgVE3EwDGUWdGuwQHTn2",
-      "eventDate": "2026-01-05",
-      "venue": "Ground",
+      "eventDate": "2026-01-22",
+      "venue": "C-110",
       "department": "CS",
       "hodApprovalType": "DEPARTMENT",
       "volunteers": [
@@ -1025,57 +1188,18 @@
       "principalStatus": "PENDING",
       "hodApprovals": [
         "l33laYnFVqTAkg5TeCCFh9XWdBk1",
+        "l33laYnFVqTAkg5TeCCFh9XWdBk1",
+        "l33laYnFVqTAkg5TeCCFh9XWdBk1",
+        "l33laYnFVqTAkg5TeCCFh9XWdBk1",
         "l33laYnFVqTAkg5TeCCFh9XWdBk1"
       ],
       "collisionReason": null,
       "cancellationReason": null,
-      "collisionWith": "Sports"
-    },
-    {
-      "id": "f0d9",
-      "title": "PTA",
-      "committeeHeadUid": "meb0W1gWXQWUU4K28HDYmlDEWL73",
-      "eventDate": "2025-12-02",
-      "venue": "C-510",
-      "department": "DS",
-      "hodApprovalType": "DEPARTMENT",
-      "volunteers": [
-        "Rajyashri",
-        "MIra",
-        "Nitesh",
-        "Bhagyashree"
-      ],
-      "status": "PENDING_PRINCIPAL",
-      "principalStatus": "PENDING",
-      "collisionReason": null,
-      "cancellationReason": null,
+      "collisionWith": "Beach Cleaning (Seminar)",
+      "organisedBy": "Committee Head",
+      "description": "Approved by Principal",
       "rescheduleSuggestions": [],
-      "hodApprovals": [
-        "l33laYnFVqTAkg5TeCCFh9XWdBk1"
-      ]
-    },
-    {
-      "id": "f9cb",
-      "title": "NSS",
-      "committeeHeadUid": "XCCgelFIFgVE3EwDGUWdGuwQHTn2",
-      "eventDate": "2026-01-01",
-      "venue": "C-510",
-      "department": "All Departments",
-      "hodApprovalType": "ALL",
-      "volunteers": [
-        "nit@gmail.com",
-        "rajyashri",
-        "BHagyasgri"
-      ],
-      "status": "PENDING_PRINCIPAL",
-      "principalStatus": "PENDING",
-      "hodApprovals": [
-        "l33laYnFVqTAkg5TeCCFh9XWdBk1"
-      ],
-      "hodRemark": "Approved by HOD",
-      "collisionReason": null,
-      "rescheduleSuggestions": [],
-      "cancellationReason": null
+      "hodRemark": "Approved by HOD"
     },
     {
       "id": "385b",
@@ -1099,6 +1223,106 @@
       "collisionReason": null,
       "rescheduleSuggestions": [],
       "cancellationReason": null
+    },
+    {
+      "id": "be01",
+      "title": "Beach Cleaning (Seminar)",
+      "committeeHeadUid": "XCCgelFIFgVE3EwDGUWdGuwQHTn2",
+      "eventDate": "2026-01-05",
+      "venue": "C-110",
+      "department": "All Departments",
+      "hodApprovalType": "ALL",
+      "volunteers": [
+        "nit@gmail.com",
+        "student@gmail.com",
+        "student1@gmail.com",
+        "student2@gmail.com",
+        "Alpa"
+      ],
+      "status": "APPROVED",
+      "principalStatus": "APPROVED",
+      "hodApprovals": [
+        "l33laYnFVqTAkg5TeCCFh9XWdBk1"
+      ],
+      "hodRemark": "Approved by HOD",
+      "collisionReason": null,
+      "rescheduleSuggestions": [],
+      "cancellationReason": null,
+      "organisedBy": "Committee Head",
+      "description": "Approved by Principal"
+    },
+    {
+      "id": "cd04",
+      "title": "Teacher Day",
+      "committeeHeadUid": "XCCgelFIFgVE3EwDGUWdGuwQHTn2",
+      "eventDate": "2026-01-06",
+      "venue": "C-510",
+      "department": "AIML",
+      "hodApprovalType": "DEPARTMENT",
+      "volunteers": [
+        "student@gmail.com",
+        "student1@gmail.com",
+        "student3@gmail.com"
+      ],
+      "status": "PENDING_PRINCIPAL",
+      "principalStatus": "PENDING",
+      "hodApprovals": [
+        "l33laYnFVqTAkg5TeCCFh9XWdBk1"
+      ],
+      "hodRemark": "Approved by HOD",
+      "collisionReason": null,
+      "rescheduleSuggestions": [],
+      "cancellationReason": null
+    },
+    {
+      "id": "5fee",
+      "title": "Teacher Day",
+      "committeeHeadUid": "XCCgelFIFgVE3EwDGUWdGuwQHTn2",
+      "eventDate": "2026-01-07",
+      "venue": "C-110",
+      "department": "All Departments",
+      "hodApprovalType": "ALL",
+      "volunteers": [
+        "student1@gmail.com",
+        "raj"
+      ],
+      "status": "APPROVED",
+      "principalStatus": "APPROVED",
+      "hodApprovals": [
+        "l33laYnFVqTAkg5TeCCFh9XWdBk1"
+      ],
+      "hodRemark": "Approved by HOD",
+      "collisionReason": null,
+      "rescheduleSuggestions": [],
+      "cancellationReason": null,
+      "organisedBy": "Committee Head",
+      "description": "Approved by Principal"
+    },
+    {
+      "id": "a8ef",
+      "title": "CESA",
+      "committeeHeadUid": "XCCgelFIFgVE3EwDGUWdGuwQHTn2",
+      "eventDate": "2026-01-07",
+      "venue": "C-110",
+      "department": "All Departments",
+      "hodApprovalType": "ALL",
+      "volunteers": [
+        "student5@gmail.com",
+        "student2@gmail.com"
+      ],
+      "status": "COLLISION",
+      "principalStatus": "TERMINATED",
+      "hodApprovals": [
+        "l33laYnFVqTAkg5TeCCFh9XWdBk1",
+        "l33laYnFVqTAkg5TeCCFh9XWdBk1"
+      ],
+      "hodRemark": "Approved by HOD",
+      "collisionReason": null,
+      "rescheduleSuggestions": [],
+      "cancellationReason": null,
+      "organisedBy": "Committee Head",
+      "description": "Approved by Principal",
+      "collisionWith": "Teacher Day"
     }
   ],
   "events": [
